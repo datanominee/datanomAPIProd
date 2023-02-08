@@ -42,7 +42,7 @@ var blockListener = require('./blocklistener.js');
 
 hfc.addConfigFile('config.json');
 var host = 'localhost';
-var port = 8088;
+var port = 3000;
 var username = "";
 var orgName = "Org1";
 var channelName = hfc.getConfigSetting('channelName');

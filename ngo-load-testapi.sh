@@ -23,7 +23,7 @@
 #export ENDPOINT=Fabric-ELB-205962472.us-west-2.elb.amazonaws.com
 #export PORT=80
 export ENDPOINT=localhost
-export PORT=8088
+export PORT=3000
 set +e
 echo installing jq
 sudo yum install jq

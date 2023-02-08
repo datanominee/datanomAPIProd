@@ -24,7 +24,7 @@ set +e
 #export ENDPOINT=ngo10-elb-2090058053.us-east-1.elb.amazonaws.com
 #export PORT=80
 export ENDPOINT=localhost
-export PORT=8088
+export PORT=3000
 
 echo '---------------------------------------'
 echo connecting to server: $ENDPOINT:$PORT

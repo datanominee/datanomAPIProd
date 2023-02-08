@@ -21,7 +21,7 @@
    ```
    In this case re-register that user as well using the following call:
       ```
-      curl -s -X POST http://localhost:8088/users -H "content-type: application/x-www-form-urlencoded" -d 'username=michael&orgName=Org1'
+      curl -s -X POST http://localhost:3000/users -H "content-type: application/x-www-form-urlencoded" -d 'username=michael&orgName=Org1'
       ``` 
       And then try again.
 

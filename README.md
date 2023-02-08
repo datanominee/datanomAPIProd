@@ -119,7 +119,7 @@ queries and invoke transactions.
 
 request:
 ```
-curl -s -X POST http://localhost:8088/users -H "content-type: application/x-www-form-urlencoded" -d 'username=michael&orgName=Org1'
+curl -s -X POST http://localhost:3000/users -H "content-type: application/x-www-form-urlencoded" -d 'username=michael&orgName=Org1'
 ```
 
 response:
@@ -133,7 +133,7 @@ response:
 
 request:
 ```
-curl -s -X POST "http://localhost:8088/donors" -H "content-type: application/json" -d '{ 
+curl -s -X POST "http://localhost:3000/donors" -H "content-type: application/json" -d '{ 
    "donorUserName": "edge2", 
    "email": "edge2@def.com", 
    "registeredDate": "2018-10-22T11:52:20.182Z" 
@@ -151,7 +151,7 @@ A transaction ID, which can be ignored:
 
 request:
 ```
-curl -s -X GET   "http://localhost:8088/donors" -H "content-type: application/json"
+curl -s -X GET   "http://localhost:3000/donors" -H "content-type: application/json"
 ```
 
 response:

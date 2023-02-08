@@ -1,6 +1,6 @@
 {
    "host": "localhost",
-   "port": "8088",
+   "port": "3000",
    "channelName": "mychannel",
    "chaincodeName": "ngo",
    "eventWaitTime": "30000",
